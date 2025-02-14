@@ -1,0 +1,1 @@
+extern char* converti(unsigned int n);int main(void) {	return 0;}

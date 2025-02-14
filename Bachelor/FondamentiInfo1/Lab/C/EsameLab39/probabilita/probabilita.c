@@ -1,0 +1,1 @@
+#include<stdlib.h>#include<stdint.h>double* probabilita(const uint32_t* v, size_t n) {	if (v == NULL || n == 0) return 0;	double* res = calloc(n, sizeof(double));	double den = 0;	for (size_t j = 0; j < n; j++) {		den += v[j];	}	for (size_t i = 0; i < n; i++) {		res[i] = v[i] / den;	}	return res;}

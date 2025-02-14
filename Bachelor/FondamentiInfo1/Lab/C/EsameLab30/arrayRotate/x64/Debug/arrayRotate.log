@@ -1,0 +1,3 @@
+﻿  array_rotate.c
+E:\C\EsameLab30\arrayRotate\array_rotate.c(12,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  arrayRotate.vcxproj -> E:\C\EsameLab30\arrayRotate\x64\Debug\arrayRotate.exe

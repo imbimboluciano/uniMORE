@@ -1,0 +1,4 @@
+﻿  main.c
+D:\C\EsameLab2\concatena\main.c(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+D:\C\EsameLab2\concatena\main.c(1,139): warning C4013: 'free' undefined; assuming extern returning int
+  concatena.vcxproj -> D:\C\EsameLab2\concatena\Debug\concatena.exe

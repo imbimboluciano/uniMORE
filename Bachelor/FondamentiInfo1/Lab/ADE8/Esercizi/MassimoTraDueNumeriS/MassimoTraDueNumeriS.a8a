@@ -1,0 +1,15 @@
+	LD	A
+	SUB	B
+	CMPv	0
+	JE	Fine
+	JLs	Store
+	LD	C
+	ADD	A
+	ST 	C
+Fine:	JMP	Fine
+Store:	LD	C
+	ADD	B
+	ST	C
+A:	5			
+B:	3	
+C:	0

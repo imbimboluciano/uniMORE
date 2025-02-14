@@ -1,0 +1,2 @@
+D:\C\EsameLab3\array\Debug\array.exe
+D:\C\EsameLab3\array\Debug\array.pdb

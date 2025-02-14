@@ -1,0 +1,2 @@
+E:\C\EsameLab3\cross\Debug\cross.exe
+E:\C\EsameLab3\cross\Debug\cross.pdb

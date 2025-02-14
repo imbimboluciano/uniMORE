@@ -1,0 +1,2 @@
+E:\C\EsameLab33\cifreDuplicate\Debug\cifreDuplicate.exe
+E:\C\EsameLab33\cifreDuplicate\Debug\cifreDuplicate.pdb

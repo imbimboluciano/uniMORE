@@ -1,0 +1,3 @@
+C:\Users\lucia\Documents\Assembly\Esercitazione18102021\ContaParole\Debug\ContaParole.exe
+C:\Users\lucia\OneDrive\Assembly\Esercitazione18102021\ContaParole\Debug\ContaParole.exe
+C:\Users\lucia\OneDrive\Assembly\Esercitazione18102021\ContaParole\Debug\ContaParole.pdb

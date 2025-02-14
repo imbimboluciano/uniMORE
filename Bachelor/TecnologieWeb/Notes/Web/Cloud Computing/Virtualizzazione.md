@@ -1,0 +1,3 @@
+La virtualizzazione rende possibile creare più macchine virtuali su un singolo server fisico; ogni macchina virtuale (VM) ha il proprio sistema operativo e il software applicativo. Una macchina virtuale non può interagire direttamente con un  computer fisico: per funzionare, ha bisogno di un livello software  noto come [[hypervisor]], che fa da interfaccia tra la VM e  l'hardware fisico sottostante . In particolare, il lavoro dell'hypervisor consiste nell'allocare risorse di elaborazione fisiche (memoria, storage) a ciascuna macchina virtuale e nel mantenere  le VM in modo che non interferiscano tra loro. 
+
+![[virtualizzazione.png]]

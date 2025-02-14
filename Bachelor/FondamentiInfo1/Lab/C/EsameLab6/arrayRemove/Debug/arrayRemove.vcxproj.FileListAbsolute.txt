@@ -1,0 +1,2 @@
+D:\C\EsameLab6\arrayRemove\Debug\arrayRemove.exe
+D:\C\EsameLab6\arrayRemove\Debug\arrayRemove.pdb

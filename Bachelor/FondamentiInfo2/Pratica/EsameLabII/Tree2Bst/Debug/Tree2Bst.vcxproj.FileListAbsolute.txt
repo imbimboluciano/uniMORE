@@ -1,0 +1,2 @@
+C:\Users\lucia\Desktop\EsameLabII\Tree2Bst\Debug\Tree2Bst.exe
+C:\Users\lucia\Desktop\EsameLabII\Tree2Bst\Debug\Tree2Bst.pdb

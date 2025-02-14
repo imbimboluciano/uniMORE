@@ -1,0 +1,2 @@
+C:\Users\lucia\Desktop\C\Esercitazione11112020\cercaPrimo\Debug\cercaPrimo.exe
+C:\Users\lucia\Desktop\C\Esercitazione11112020\cercaPrimo\Debug\cercaPrimo.pdb

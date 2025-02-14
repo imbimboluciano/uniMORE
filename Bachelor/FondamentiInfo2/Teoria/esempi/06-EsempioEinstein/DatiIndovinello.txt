@@ -1,0 +1,120 @@
+
+
+1. La bimba vive nella casa a pois.
+2. La fata alla finestra ha un anemone. 
+3. La strega beve the.
+4. La casa verde è alla sinistra della casa azzurra.
+5. Chi vive nella casa verde beve una tisana.
+6. Chi ha la casa sul ciliegio ha un ranuncolo alla finestra.
+7. La proprietaria della casa fucsia vive su un faggio.
+8. L'inquilina della casa centrale beve cioccolata in tazza.
+9. La donna vive nella prima casa.
+10. Chi vive sul carpino vive vicino a chi ha un' aquilegia alla finestra.
+11. Chi ha un elleboro nel vaso vive vicino a chi ha la casa su un faggio.
+12. Chi vive su una betulla beve cappuccino. 
+13. L'elfo femmina vive su un castagno.
+14. La donna vive vicino alla casa viola.
+15. Chi vive sul carpino vive vicino a chi beve acqua. 
+
+
+1) L'inglese vive in una casa rossa.
+2) Lo svedese ha un cane.
+3) Il danese beve tè.
+4) La casa verde è all'immediata sinistra della casa bianca.
+5) Il padrone della casa verde beve caffé.
+6) La persona che fuma le Pall Mall, ha degli uccellini.
+7) Il proprietario della casa gialla fuma le Dunhill's.
+8) L'uomo che vive nella casa centrale, beve latte.
+9) Il norvegese vive nella prima casa.
+10) L'uomo che fuma le Blends, vive vicino a quello che ha i gatti.
+11) L'uomo che ha i cavalli, vive vicino all'uomo che fuma le Dunhill's.
+12) L'uomo che fuma le Blue Master, beve birra.
+13) Il tedesco fuma le Prince.
+14) Il norvegese vive vicino alla casa blu.
+15) L'uomo che fuma le Blends, ha un vicino che beve acqua.
+
+
+
+Colori  [0]
+0  rossa  - pois
+1  verde  - verde
+2  bianca - azzurra
+3  gialla - fucsia
+4  blu  - viola
+
+// Controlli sul colore casa (livello 0)
+4) La casa verde è all'immediata sinistra della casa bianca.
+   1 a sinistra di 2
+   if v[s][0] == 2 then v[s-1][0] == 1
+
+
+
+Nazionalità  [1]
+0  inglese  - bimba
+1  svedese  - fata
+2  danese - strega
+3  norvegese - donna
+4  tedesco - elfo femmina
+
+// Controlli sulla nazionalità (livello 1)
+9) Il norvegese vive nella prima casa.
+   v[0][1] == 3 se non è così è errato
+1) L'inglese vive in una casa rossa.
+   v[s][1] == 0 allora v[s][0] == 0
+14) Il norvegese vive vicino alla casa blu.
+   v[s][1] == 3 allora v[s-1][0] == 4 OR v[s+1][0] == 4
+
+Bevande [2]
+0  tè  - the
+1  caffè - tisana
+2  latte - cioccolata in tazza
+3  birra - cappuccino
+4  acqua - acqua
+
+// Controlli sulla bevanda (livello 2)
+8) L'uomo che vive nella casa centrale, beve latte.
+   v[2][2] == 2 se non è così è errato
+3) Il danese beve tè.
+   v[s][2] == 0 allora v[s][1] == 2
+5) Il padrone della casa verde beve caffé.
+   v[s][2] == 1 allora v[s][0] == 1
+
+
+
+Fumo [3]
+0  Pall Mall - ciliegio
+1  Dunhill's - faggio
+2  Blends - carpino
+3  Blue Master - betulla
+4  Prince - castagno
+
+// Controlli sul fumo (livello 3)
+13) Il tedesco fuma le Prince.
+   v[s][3] == 4 allora v[s][1] == 4
+7) Il proprietario della casa gialla fuma le Dunhill's.
+   v[s][3] == 1 allora v[s][0] == 3
+12) L'uomo che fuma le Blue Master, beve birra.
+   v[s][3] == 3 allora v[s][2] == 3
+15) L'uomo che fuma le Blends, ha un vicino che beve acqua.
+   v[s][3] == 2 allora v[s-1][2] == 4 OR v[s+1][2] == 4
+
+
+Animali [4]
+0  cane -  anemone
+1  uccellini - ranuncolo
+2  gatti - aquilegia
+3  cavalli - elleboro
+4  pesci  - LICOPODIO
+
+// Controlli sugli animali (livello 4)
+2) Lo svedese ha un cane.
+   v[s][4] == 0 allora v[s][1] == 1
+6) La persona che fuma le Pall Mall, ha degli uccellini.
+   v[s][4] == 1 allora v[s][3] == 0
+10) L'uomo che fuma le Blends, vive vicino a quello che ha i gatti.
+   v[s][4] == 2 allora v[s-1][3] == 2 OR v[s+1][3] == 2 
+11) L'uomo che ha i cavalli, vive vicino all'uomo che fuma le Dunhill's.
+   v[s][4] == 3 allora v[s-1][3] == 1 OR v[s+1][3] == 1 
+
+
+

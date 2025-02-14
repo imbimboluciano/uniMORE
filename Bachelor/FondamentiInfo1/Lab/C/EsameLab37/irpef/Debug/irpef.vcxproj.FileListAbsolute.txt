@@ -1,0 +1,2 @@
+E:\C\EsameLab37\irpef\Debug\irpef.exe
+E:\C\EsameLab37\irpef\Debug\irpef.pdb

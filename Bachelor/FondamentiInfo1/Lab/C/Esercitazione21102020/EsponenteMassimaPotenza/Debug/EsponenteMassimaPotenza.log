@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\lucia\Desktop\C\EsponenteMassimaPotenza\main.c(5,22): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\lucia\Desktop\C\EsponenteMassimaPotenza\main.c(5,38): warning C4018: '<=': signed/unsigned mismatch
+  EsponenteMassimaPotenza.vcxproj -> C:\Users\lucia\Desktop\C\EsponenteMassimaPotenza\Debug\EsponenteMassimaPotenza.exe

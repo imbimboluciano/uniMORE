@@ -1,0 +1,2 @@
+E:\C\EsameLab7\matrixRead\Debug\matrixRead.exe
+E:\C\EsameLab7\matrixRead\Debug\matrixRead.pdb

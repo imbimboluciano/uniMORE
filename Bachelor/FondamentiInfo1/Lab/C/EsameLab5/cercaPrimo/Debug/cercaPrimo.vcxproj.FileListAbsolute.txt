@@ -1,0 +1,2 @@
+E:\C\EsameLab5\cercaPrimo\Debug\cercaPrimo.exe
+E:\C\EsameLab5\cercaPrimo\Debug\cercaPrimo.pdb

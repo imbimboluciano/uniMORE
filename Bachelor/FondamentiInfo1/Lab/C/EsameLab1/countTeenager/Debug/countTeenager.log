@@ -1,0 +1,3 @@
+﻿  countteenager.c
+D:\C\EsameLab1\countTeenager\countteenager.c(7,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+  countTeenager.vcxproj -> D:\C\EsameLab1\countTeenager\Debug\countTeenager.exe

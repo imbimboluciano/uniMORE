@@ -1,0 +1,2 @@
+D:\C\EsameLab1\readPerson\Debug\readPerson.exe
+D:\C\EsameLab1\readPerson\Debug\readPerson.pdb

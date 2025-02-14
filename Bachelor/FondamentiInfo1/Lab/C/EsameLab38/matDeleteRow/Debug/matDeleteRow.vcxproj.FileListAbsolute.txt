@@ -1,0 +1,2 @@
+E:\C\EsameLab38\matDeleteRow\Debug\matDeleteRow.exe
+E:\C\EsameLab38\matDeleteRow\Debug\matDeleteRow.pdb

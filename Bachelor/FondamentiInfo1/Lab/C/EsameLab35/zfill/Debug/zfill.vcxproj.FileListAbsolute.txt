@@ -1,0 +1,2 @@
+E:\C\EsameLab35\zfill\Debug\zfill.exe
+E:\C\EsameLab35\zfill\Debug\zfill.pdb

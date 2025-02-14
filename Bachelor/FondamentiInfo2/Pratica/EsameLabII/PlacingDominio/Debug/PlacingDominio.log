@@ -1,0 +1,8 @@
+﻿  domino.c
+C:\Users\lucia\Desktop\EsameLabII\PlacingDominio\domino.c(27,19): warning C4047: '>': 'int' differs in levels of indirection from 'int *'
+C:\Users\lucia\Desktop\EsameLabII\PlacingDominio\domino.c(28,16): warning C4047: '=': 'int *' differs in levels of indirection from 'int'
+C:\Users\lucia\Desktop\EsameLabII\PlacingDominio\domino.c(29,24): warning C4047: 'function': 'size_t' differs in levels of indirection from 'int *'
+C:\Users\lucia\Desktop\EsameLabII\PlacingDominio\domino.c(29,21): warning C4024: 'memcpy': different types for formal and actual parameter 3
+  main.c
+  Generating Code...
+  PlacingDominio.vcxproj -> C:\Users\lucia\Desktop\EsameLabII\PlacingDominio\Debug\PlacingDominio.exe

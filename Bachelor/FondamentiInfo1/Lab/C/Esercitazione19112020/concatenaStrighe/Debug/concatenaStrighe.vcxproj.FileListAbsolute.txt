@@ -1,0 +1,2 @@
+C:\Users\lucia\Desktop\C\Esercitazione19112020\concatenaStrighe\Debug\concatenaStrighe.exe
+C:\Users\lucia\Desktop\C\Esercitazione19112020\concatenaStrighe\Debug\concatenaStrighe.pdb

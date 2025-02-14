@@ -1,0 +1,4 @@
+﻿  cornicetta.c
+C:\Users\lucia\Desktop\C\Esercitazione26112020\cornicetta\cornicetta.c(16,20): warning C4305: '=': truncation from 'int' to 'char'
+C:\Users\lucia\Desktop\C\Esercitazione26112020\cornicetta\cornicetta.c(17,20): warning C4305: '=': truncation from 'int' to 'char'
+  cornicetta.vcxproj -> C:\Users\lucia\Desktop\C\Esercitazione26112020\cornicetta\Debug\cornicetta.exe

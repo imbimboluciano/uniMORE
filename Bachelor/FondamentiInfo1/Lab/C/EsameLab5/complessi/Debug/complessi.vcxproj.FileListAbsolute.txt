@@ -1,0 +1,2 @@
+E:\C\EsameLab5\complessi\Debug\complessi.exe
+E:\C\EsameLab5\complessi\Debug\complessi.pdb

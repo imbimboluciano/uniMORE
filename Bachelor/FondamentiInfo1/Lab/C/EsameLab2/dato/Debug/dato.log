@@ -1,0 +1,5 @@
+﻿  dati.c
+D:\C\EsameLab2\dato\dati.c(11,19): warning C4477: 'fscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 2 has type 'double *'
+  main.c
+  Generating Code...
+  dato.vcxproj -> D:\C\EsameLab2\dato\Debug\dato.exe

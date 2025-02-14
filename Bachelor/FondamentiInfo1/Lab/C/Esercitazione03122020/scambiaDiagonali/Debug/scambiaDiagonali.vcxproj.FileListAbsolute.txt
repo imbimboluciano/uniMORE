@@ -1,0 +1,2 @@
+D:\C\Esame031220\scambiaDiagonali\Debug\scambiaDiagonali.exe
+D:\C\Esame031220\scambiaDiagonali\Debug\scambiaDiagonali.pdb

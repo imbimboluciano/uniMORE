@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="oop.Functional.BankAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-08T13:19:51" hostname="DESKTOP-VL0SRHS" time="0.06">
+  <properties/>
+  <testcase name="applyInterest()" classname="oop.Functional.BankAccountTest" time="0.06"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,3 @@
+﻿  main.c
+main.obj : error LNK2019: unresolved external symbol _multip referenced in function _main
+C:\Users\lucia\OneDrive\Assembly\Esercitazione15112021\EsInLab2\Debug\EsInLab2.exe : fatal error LNK1120: 1 unresolved externals

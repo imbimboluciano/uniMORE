@@ -1,0 +1,5 @@
+Sono in pratica dei bridge ad alte prestazioni (gestioni comunicazioni in parallelo) e con molte interfacce. Come nel caso dei bridge consentono un’architettura Ethernet senza collisioni (accesso dedicato e full  duplex). A differenze del bridge, lo switch a diverse modalitá di trasmissione dei pacchetti:
+- **store-and-forward** (bridge), dove un frame è raccolto e immagazzinato nella sua totalità prima che il commutatore inizi a trasmetterlo sulla linea di uscita
+- **cut-through**, modalitá nella quale il frame è inoltrato senza aspettare che tutto il frame sia arrivato (é sufficiente che sia giunto l'header, cioé la parte del frame contenente l’indirizzo di destinazione  e che il canale di uscita sia libero). Questa modalitá offre un miglioramento delle prestazioni ma anche un aumento dei possibili frame corrotti.
+
+Come possiamo notare switch e bridge sono apparati concettualmente identici ma di norma lo switch é un dispositivo hardware mentre il bridge é un sistema software.

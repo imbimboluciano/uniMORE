@@ -1,0 +1,3 @@
+﻿  address_book.c
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookDelete\address_book.c(12,1): warning C4090: 'initializing': different 'const' qualifiers
+  AddressBookDelete.vcxproj -> E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookDelete\Debug\AddressBookDelete.exe

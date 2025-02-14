@@ -1,0 +1,4 @@
+D:\C\EsameLab3\alterna\Debug\alterna.exe
+D:\C\EsameLab3\alterna\Debug\alterna.pdb
+E:\C\EsameLab3\alterna\Debug\alterna.exe
+E:\C\EsameLab3\alterna\Debug\alterna.pdb

@@ -1,0 +1,3 @@
+﻿  contaspazi.c
+D:\C\EsameLab1\contaspazi\contaspazi.c(11,13): warning C4047: 'return': 'unsigned int' differs in levels of indirection from 'void *'
+  contaspazi.vcxproj -> D:\C\EsameLab1\contaspazi\Debug\contaspazi.exe

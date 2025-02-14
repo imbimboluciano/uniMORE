@@ -1,0 +1,2 @@
+C:\Users\lucia\Desktop\C\NumeroPrimo\Debug\NumeroPrimo.exe
+C:\Users\lucia\Desktop\C\NumeroPrimo\Debug\NumeroPrimo.pdb

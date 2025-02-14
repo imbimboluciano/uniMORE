@@ -1,0 +1,2 @@
+D:\C\EsameLab2\quadrati\Debug\quadrati.exe
+D:\C\EsameLab2\quadrati\Debug\quadrati.pdb

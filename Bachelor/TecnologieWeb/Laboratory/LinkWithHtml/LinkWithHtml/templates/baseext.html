@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ title }} {% endblock  %}
+
+{% block content %}
+    {{ block.super }}
+
+    <h1>
+        {% if user.is_authenticated %}
+            Ciao, {{ user.username }}
+        {% else %}
+            Ciao, guest!
+        {% endif %}
+    </h1>
+
+    {% for i in lista %}
+        <p> {{ i }} </p>
+        <p>{{ request.resolver_match.kwargs.nome }} </p>
+        <p>{{ request.resolver_match.kwargs.eta }} </p>
+    {% endfor %}
+
+    {% include "footer.html" %}
+
+{% endblock  %}
+
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+E:\C\EsameLab37\contaNumeri\Debug\contaNumeri.exe
+E:\C\EsameLab37\contaNumeri\Debug\contaNumeri.pdb

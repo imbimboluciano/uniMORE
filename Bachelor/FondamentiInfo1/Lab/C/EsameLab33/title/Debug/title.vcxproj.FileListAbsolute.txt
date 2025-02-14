@@ -1,0 +1,2 @@
+E:\C\EsameLab33\title\Debug\title.exe
+E:\C\EsameLab33\title\Debug\title.pdb

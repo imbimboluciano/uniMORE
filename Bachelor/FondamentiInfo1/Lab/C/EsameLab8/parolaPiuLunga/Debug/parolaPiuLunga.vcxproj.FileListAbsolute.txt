@@ -1,0 +1,2 @@
+E:\C\EsameLab8\parolaPiuLunga\Debug\parolaPiuLunga.exe
+E:\C\EsameLab8\parolaPiuLunga\Debug\parolaPiuLunga.pdb

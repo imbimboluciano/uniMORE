@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\EsercitazioneAlberi\countDominant\Debug\countDominant.exe
+E:\Unimore\Fdi2\Pratica\EsercitazioneAlberi\countDominant\Debug\countDominant.pdb

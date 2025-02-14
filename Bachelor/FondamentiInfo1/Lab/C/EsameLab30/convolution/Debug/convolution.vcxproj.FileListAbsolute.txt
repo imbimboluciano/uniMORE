@@ -1,0 +1,2 @@
+E:\C\EsameLab30\convolution\Debug\convolution.exe
+E:\C\EsameLab30\convolution\Debug\convolution.pdb

@@ -1,0 +1,23 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="999983" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="492,464" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="1_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="1_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="SerialPrint/SerialPrint.ino.standard.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="376,600" rotation="0" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-3" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="376,548" rotation="0" hflip="1" vflip="1" label="Resistor-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="220 Ω" />
+
+<item itemtype="SerialPort" CircId="SerialPort-8" mainComp="false" Show_id="false" Show_Val="false" Pos="500,404" rotation="0" hflip="1" vflip="1" label="SerialPort-8" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Port="/dev/ttyS0" Baudrate="9600 _Bauds" DataBits="8 _Bits" StopBits="1 _Bits" />
+
+<item itemtype="Connector" uid="connector-9" startpinid="Led-2-rPin" endpinid="Uno-1-GND2" pointList="392,600,500,600" />
+
+<item itemtype="Connector" uid="connector-10" startpinid="Led-2-lPin" endpinid="Resistor-3-lPin" pointList="360,600,344,600,344,548,360,548" />
+
+<item itemtype="Connector" uid="connector-11" startpinid="Resistor-3-rPin" endpinid="Uno-1-8" pointList="392,548,500,548,500,552" />
+
+<item itemtype="Connector" uid="connector-12" startpinid="Uno-1-1" endpinid="SerialPort-8-pin1" pointList="500,488,436,488,436,412,460,412" />
+
+<item itemtype="Connector" uid="connector-13" startpinid="Uno-1-0" endpinid="SerialPort-8-pin0" pointList="500,480,448,480,448,396,460,396" />
+
+</circuit>

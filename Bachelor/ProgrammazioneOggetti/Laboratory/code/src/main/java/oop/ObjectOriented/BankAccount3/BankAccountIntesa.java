@@ -1,0 +1,49 @@
+package oop.ObjectOriented.BankAccount3;
+
+public class BankAccountIntesa extends AbstractBankAccount{
+
+    static final double AnnualInterest = 0.0;
+    static final double FeeWithdraw = 0.0;
+    static final double FeeDeposit = 0.0;
+
+    public BankAccountIntesa(String IBAN, double balance) {
+        super(IBAN, balance);
+    }
+
+    @Override
+    public double addAnnualInterest() {
+        return AnnualInterest;
+    }
+
+    @Override
+    public double transfer(BankAccount b, double amount) {
+        if(!b.getCountry().equals(getCountry())){
+            return 0.0;
+        }
+        double amountActual = withdraw(amount);
+        b.deposit(amountActual);
+        return amountActual;
+    }
+
+    @Override
+    public double withdraw(double amount) {
+        double amountActual = Math.min(amount,balance);
+        balance -= amountActual;
+        balance -= amountActual * FeeWithdraw;
+        return  amountActual;
+    }
+
+    @Override
+    public void deposit(double amount) {
+        balance += amount;
+        balance -= balance * FeeDeposit;
+    }
+
+    @Override
+    public String toString() {
+        return "BankAccountIntesa{" +
+                "IBAN='" + IBAN + '\'' +
+                ", balance=" + balance +
+                '}';
+    }
+}

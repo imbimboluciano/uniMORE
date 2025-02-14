@@ -1,0 +1,4 @@
+﻿  address_book.c
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookSort\address_book.c(13,36): warning C4090: 'function': different 'const' qualifiers
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookSort\address_book.c(13,65): warning C4090: 'function': different 'const' qualifiers
+  AddressBookSort.vcxproj -> E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookSort\Debug\AddressBookSort.exe

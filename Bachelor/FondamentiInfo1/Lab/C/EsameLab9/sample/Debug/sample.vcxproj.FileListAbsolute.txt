@@ -1,0 +1,2 @@
+E:\C\EsameLab9\sample\Debug\sample.exe
+E:\C\EsameLab9\sample\Debug\sample.pdb

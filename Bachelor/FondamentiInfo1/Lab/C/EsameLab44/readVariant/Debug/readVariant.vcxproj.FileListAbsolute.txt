@@ -1,0 +1,2 @@
+E:\C\EsameLab44\readVariant\Debug\readVariant.exe
+E:\C\EsameLab44\readVariant\Debug\readVariant.pdb

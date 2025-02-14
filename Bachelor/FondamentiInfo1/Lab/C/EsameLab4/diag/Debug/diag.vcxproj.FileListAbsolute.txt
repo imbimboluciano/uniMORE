@@ -1,0 +1,2 @@
+E:\C\EsameLab4\diag\Debug\diag.exe
+E:\C\EsameLab4\diag\Debug\diag.pdb

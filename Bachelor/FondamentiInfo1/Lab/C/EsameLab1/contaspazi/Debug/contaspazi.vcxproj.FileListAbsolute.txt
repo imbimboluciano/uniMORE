@@ -1,0 +1,2 @@
+D:\C\EsameLab1\contaspazi\Debug\contaspazi.exe
+D:\C\EsameLab1\contaspazi\Debug\contaspazi.pdb

@@ -1,0 +1,2 @@
+Go to Telegram and type command /start to BotFather
+Then follow the instruction of BotFather

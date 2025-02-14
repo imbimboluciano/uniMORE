@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\EsercitazioneSort\vectorRead\Debug\vectorRead.exe
+E:\Unimore\Fdi2\Pratica\EsercitazioneSort\vectorRead\Debug\vectorRead.pdb

@@ -1,0 +1,2 @@
+E:\C\EsameLab44\matVectorize\Debug\matVectorize.exe
+E:\C\EsameLab44\matVectorize\Debug\matVectorize.pdb

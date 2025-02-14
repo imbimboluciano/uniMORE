@@ -1,0 +1,8 @@
+﻿  address_book.c
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookFind\address_book.c(8,46): warning C4133: 'function': incompatible types - from 'const char *' to 'const ElemType *'
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookFind\address_book.c(9,42): warning C4133: 'function': incompatible types - from 'const char [40]' to 'const Item *'
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookFind\address_book.c(9,43): warning C4090: '=': different 'const' qualifiers
+  elemtype.c
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookFind\elemtype.c(40,16): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'const ElemType'
+  Generating Code...
+  AddressBookFind.vcxproj -> E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookFind\Debug\AddressBookFind.exe

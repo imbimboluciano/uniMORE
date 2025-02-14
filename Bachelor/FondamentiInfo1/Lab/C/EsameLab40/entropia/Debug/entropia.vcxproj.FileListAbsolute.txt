@@ -1,0 +1,2 @@
+E:\C\EsameLab40\entropia\Debug\entropia.exe
+E:\C\EsameLab40\entropia\Debug\entropia.pdb

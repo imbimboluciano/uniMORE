@@ -1,0 +1,3 @@
+﻿  sample.c
+E:\C\EsameLab9\sample\sample.c(13,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+  sample.vcxproj -> E:\C\EsameLab9\sample\Debug\sample.exe

@@ -1,0 +1,2 @@
+E:\C\EsameLab40\easyDecode\Debug\easyDecode.exe
+E:\C\EsameLab40\easyDecode\Debug\easyDecode.pdb

@@ -1,0 +1,7 @@
+﻿  bucketsort.c
+E:\Unimore\Fdi2\Pratica\EsempioEsame11\BucketSort\bucketsort.c(26,16): warning C4047: 'return': 'Item *' differs in levels of indirection from 'Item **'
+  elemtype.c
+  list.c
+  main.c
+  Generating Code...
+  BucketSort.vcxproj -> E:\Unimore\Fdi2\Pratica\EsempioEsame11\BucketSort\Debug\BucketSort.exe

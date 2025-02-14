@@ -1,0 +1,2 @@
+E:\C\EsameLab39\stampaA\Debug\stampaA.exe
+E:\C\EsameLab39\stampaA\Debug\stampaA.pdb

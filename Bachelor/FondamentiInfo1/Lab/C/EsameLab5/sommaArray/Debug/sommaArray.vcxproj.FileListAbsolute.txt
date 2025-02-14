@@ -1,0 +1,2 @@
+D:\C\EsameLab5\sommaArray\Debug\sommaArray.exe
+D:\C\EsameLab5\sommaArray\Debug\sommaArray.pdb

@@ -1,0 +1,2 @@
+E:\C\EsameLab31\sparseMatrix\Debug\sparseMatrix.exe
+E:\C\EsameLab31\sparseMatrix\Debug\sparseMatrix.pdb

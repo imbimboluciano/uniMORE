@@ -1,0 +1,2 @@
+D:\C\EsameLab4\contaParole\Debug\contaParole.exe
+D:\C\EsameLab4\contaParole\Debug\contaParole.pdb

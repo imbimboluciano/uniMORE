@@ -1,0 +1,1 @@
+#include<stdlib.h>#include<stdint.h>extern double* probabilita(const uint32_t* v, size_t n);int main(void) {	uint32_t v[] = { 5,4,6,7,8 };	double* res = probabilita(v, 5);	free(res);	return 0;}

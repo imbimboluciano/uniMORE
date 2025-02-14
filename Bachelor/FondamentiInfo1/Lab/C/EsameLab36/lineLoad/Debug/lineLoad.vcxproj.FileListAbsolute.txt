@@ -1,0 +1,2 @@
+E:\C\EsameLab36\lineLoad\Debug\lineLoad.exe
+E:\C\EsameLab36\lineLoad\Debug\lineLoad.pdb

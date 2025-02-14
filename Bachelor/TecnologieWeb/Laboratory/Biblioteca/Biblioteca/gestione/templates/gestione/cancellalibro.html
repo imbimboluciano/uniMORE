@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}{% endblock head %}
+
+{% block title %}{{ title }}{% endblock title %}
+
+{% block content %}
+
+<center>
+    <h1> {{ title }} </h1>
+
+    {% if message == "" %}
+
+    <form action="/gestione/cancellalibro" method="GET">
+        <label for="libro">Scegli il libro da cancellare:</label>
+        <select name="libro" id="libro">
+          {% for l in libri %}
+          
+          <option>{{ l.pk }}: {{l.autore}} {{l.titolo}} </option>
+          
+          {% endfor %}
+
+        </select>
+        <br><br>
+        <input type="submit" value="Elimina">
+    </form>
+    
+    {% else %}
+        {{ message }}
+        <a href = "{% url 'gestione:listalibri' %}"> Lista Libri </a>
+    
+    {% endif %}
+    
+
+</center>
+
+
+
+{% endblock content %}

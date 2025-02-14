@@ -1,0 +1,57 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="372,424" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="1_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="1_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="sensore.ino.standard.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="SerialPort" CircId="SerialPort-2" mainComp="false" Show_id="false" Show_Val="false" Pos="412,376" rotation="0" hflip="1" vflip="1" label="SerialPort-2" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Port="/dev/ttyS0" Baudrate="9600 _Bauds" DataBits="8 _Bits" StopBits="1 _Bits" />
+
+<item itemtype="LDR" CircId="LDR-9" mainComp="false" Show_id="false" Show_Val="false" Pos="592,520" rotation="0" hflip="1" vflip="1" label="LDR-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="1000 Lux" Lux="727 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-14" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="688,520" rotation="0" hflip="1" vflip="1" label="Resistor-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-87" mainComp="false" Show_id="false" Show_Val="false" Pos="688,640" rotation="0" hflip="1" vflip="1" label="Ground-87" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="LDR" CircId="LDR-96" mainComp="false" Show_id="false" Show_Val="false" Pos="592,568" rotation="0" hflip="1" vflip="1" label="LDR-96" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="1000 Lux" Lux="691 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-97" mainComp="false" Show_id="false" Show_Val="false" Pos="540,548" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-97" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-103" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="644,568" rotation="0" hflip="1" vflip="1" label="Resistor-103" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Node" CircId="Node-85" mainComp="false" Pos="660,520" />
+
+<item itemtype="Node" CircId="Node-100" mainComp="false" Pos="564,548" />
+
+<item itemtype="Node" CircId="Node-106" mainComp="false" Pos="688,568" />
+
+<item itemtype="Node" CircId="Node-123" mainComp="false" Pos="620,568" />
+
+<item itemtype="Connector" uid="connector-124" startpinid="Resistor-14-lPin" endpinid="Node-85-0" pointList="672,520,660,520" />
+
+<item itemtype="Connector" uid="connector-125" startpinid="Uno-1-A2" endpinid="Node-85-1" pointList="524,464,660,464,660,520" />
+
+<item itemtype="Connector" uid="connector-126" startpinid="Node-85-2" endpinid="LDR-9-rPin" pointList="660,520,608,520" />
+
+<item itemtype="Connector" uid="connector-127" startpinid="Ground-87-Gnd" endpinid="Node-106-0" pointList="688,624,688,568" />
+
+<item itemtype="Connector" uid="connector-128" startpinid="Uno-1-1" endpinid="SerialPort-2-pin1" pointList="380,448,336,448,336,384,372,384" />
+
+<item itemtype="Connector" uid="connector-129" startpinid="Uno-1-0" endpinid="SerialPort-2-pin0" pointList="380,440,312,440,312,368,372,368" />
+
+<item itemtype="Connector" uid="connector-130" startpinid="Fixed Voltage-97-outnod" endpinid="Node-100-0" pointList="556,548,564,548" />
+
+<item itemtype="Connector" uid="connector-131" startpinid="LDR-96-lPin" endpinid="Node-100-1" pointList="576,568,576,548,564,548" />
+
+<item itemtype="Connector" uid="connector-132" startpinid="Node-100-2" endpinid="LDR-9-lPin" pointList="564,548,576,548,576,520" />
+
+<item itemtype="Connector" uid="connector-133" startpinid="Resistor-103-rPin" endpinid="Node-106-1" pointList="660,568,688,568" />
+
+<item itemtype="Connector" uid="connector-134" startpinid="Node-106-2" endpinid="Resistor-14-rPin" pointList="688,568,716,568,716,520,704,520" />
+
+<item itemtype="Connector" uid="connector-135" startpinid="LDR-96-rPin" endpinid="Node-123-0" pointList="608,568,620,568" />
+
+<item itemtype="Connector" uid="connector-136" startpinid="Uno-1-A3" endpinid="Node-123-1" pointList="524,456,616,456,616,568,620,568" />
+
+<item itemtype="Connector" uid="connector-137" startpinid="Node-123-2" endpinid="Resistor-103-lPin" pointList="620,568,628,568" />
+
+</circuit>

@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\EsercitazioneAlberi\TreeMax\Debug\TreeMax.exe
+E:\Unimore\Fdi2\Pratica\EsercitazioneAlberi\TreeMax\Debug\TreeMax.pdb

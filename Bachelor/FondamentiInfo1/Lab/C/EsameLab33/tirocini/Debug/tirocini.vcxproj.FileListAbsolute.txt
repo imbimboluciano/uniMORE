@@ -1,0 +1,2 @@
+E:\C\EsameLab33\tirocini\Debug\tirocini.exe
+E:\C\EsameLab33\tirocini\Debug\tirocini.pdb

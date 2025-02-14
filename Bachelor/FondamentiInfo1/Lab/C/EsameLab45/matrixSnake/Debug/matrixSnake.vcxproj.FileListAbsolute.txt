@@ -1,0 +1,2 @@
+E:\C\EsameLab45\matrixSnake\Debug\matrixSnake.exe
+E:\C\EsameLab45\matrixSnake\Debug\matrixSnake.pdb

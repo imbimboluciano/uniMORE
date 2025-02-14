@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\EsercitazioneAlberi\InsertBst\Debug\InsertBst.exe
+E:\Unimore\Fdi2\Pratica\EsercitazioneAlberi\InsertBst\Debug\InsertBst.pdb

@@ -1,0 +1,2 @@
+E:\C\EsameLab30\arrayRotate\x64\Debug\arrayRotate.exe
+E:\C\EsameLab30\arrayRotate\x64\Debug\arrayRotate.pdb

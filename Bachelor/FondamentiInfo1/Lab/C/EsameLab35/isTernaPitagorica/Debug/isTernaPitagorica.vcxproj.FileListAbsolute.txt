@@ -1,0 +1,2 @@
+E:\C\EsameLab35\isTernaPitagorica\Debug\isTernaPitagorica.exe
+E:\C\EsameLab35\isTernaPitagorica\Debug\isTernaPitagorica.pdb

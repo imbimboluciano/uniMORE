@@ -1,0 +1,2 @@
+E:\C\EsameLab41\rollAndKeep\Debug\rollAndKeep.exe
+E:\C\EsameLab41\rollAndKeep\Debug\rollAndKeep.pdb

@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\EsercitazioneSort\vectorFind\Debug\vectorFind.exe
+E:\Unimore\Fdi2\Pratica\EsercitazioneSort\vectorFind\Debug\vectorFind.pdb

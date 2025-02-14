@@ -1,0 +1,2 @@
+E:\C\EsameLab38\eliminaConsecutivi\Debug\eliminaConsecutivi.exe
+E:\C\EsameLab38\eliminaConsecutivi\Debug\eliminaConsecutivi.pdb

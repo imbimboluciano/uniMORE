@@ -1,0 +1,2 @@
+E:\C\EsameLab4\readStringhe\Debug\readStringhe.exe
+E:\C\EsameLab4\readStringhe\Debug\readStringhe.pdb

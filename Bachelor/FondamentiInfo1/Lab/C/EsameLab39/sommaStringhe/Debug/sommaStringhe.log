@@ -1,0 +1,5 @@
+﻿  main.c
+E:\C\EsameLab39\sommaStringhe\main.c(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+  somma_stringhe.c
+  Generating Code...
+  sommaStringhe.vcxproj -> E:\C\EsameLab39\sommaStringhe\Debug\sommaStringhe.exe

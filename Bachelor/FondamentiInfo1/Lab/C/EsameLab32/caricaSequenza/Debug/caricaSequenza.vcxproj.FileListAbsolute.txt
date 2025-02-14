@@ -1,0 +1,2 @@
+E:\C\EsameLab32\caricaSequenza\Debug\caricaSequenza.exe
+E:\C\EsameLab32\caricaSequenza\Debug\caricaSequenza.pdb

@@ -1,0 +1,3 @@
+﻿  atoi.c
+E:\Unimore\Fdi2\Pratica\EsempioEsame9\AsciiToInt\atoi.c(16,52): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+  AsciiToInt.vcxproj -> E:\Unimore\Fdi2\Pratica\EsempioEsame9\AsciiToInt\Debug\AsciiToInt.exe

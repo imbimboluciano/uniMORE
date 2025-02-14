@@ -1,0 +1,2 @@
+C:\Users\lucia\Desktop\C\Fattoriale\Debug\Fattoriale.exe
+C:\Users\lucia\Desktop\C\Fattoriale\Debug\Fattoriale.pdb

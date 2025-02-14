@@ -1,0 +1,1 @@
+extern char* somma_stringhe(const char* a, const char* b);int main(void) {	char* res = somma_stringhe("12345678901234567890", "98765432109876543210");	return 0;}

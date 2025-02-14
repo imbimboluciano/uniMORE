@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block head %}{% endblock head %}
+
+{% block title %}{{ title }}{% endblock title %}
+
+{% block content %}
+
+<center>
+    <h1> {{ title }} </h1>
+
+    {% if message == "" %}
+
+    <form action = "/gestione/modificalibro/{{libro.autore}}/{{libro.titolo}}"> 
+        <label for = "Autore">Autore:</label> <br>
+        <input type="text" id="autore" name="autore" value = "{{ libro.autore }}"> <br>
+        <label for = "Titolo">Titolo: </label> <br>
+        <input type="text" id="titolo" name="titolo" value=" {{ libro.titolo }}"> <br>
+        <label for = "Pagine">Pagine: </label> <br>
+        <input type="text" id="pagine" name="pagine" value = " {{libro.Pagine}}"> <br> <br>
+        <input type="submit" value="Crea Entry"> <br>
+    </form>
+    
+    {% else %}
+        {{ message }}
+        <a href = "{% url 'gestione:listalibri' %}"> Lista Libri </a>
+    
+    {% endif %}
+    
+
+</center>
+
+
+
+{% endblock content %}

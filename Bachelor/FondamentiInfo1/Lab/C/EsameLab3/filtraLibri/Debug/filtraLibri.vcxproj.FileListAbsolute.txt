@@ -1,0 +1,2 @@
+D:\C\EsameLab3\filtraLibri\Debug\filtraLibri.exe
+D:\C\EsameLab3\filtraLibri\Debug\filtraLibri.pdb

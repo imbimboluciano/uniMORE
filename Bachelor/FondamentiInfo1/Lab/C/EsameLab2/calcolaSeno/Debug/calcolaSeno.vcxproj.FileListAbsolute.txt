@@ -1,0 +1,2 @@
+D:\C\EsameLab2\calcolaSeno\Debug\calcolaSeno.exe
+D:\C\EsameLab2\calcolaSeno\Debug\calcolaSeno.pdb

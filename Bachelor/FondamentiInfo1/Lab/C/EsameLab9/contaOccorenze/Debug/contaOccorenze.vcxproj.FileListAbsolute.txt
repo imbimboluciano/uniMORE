@@ -1,0 +1,2 @@
+D:\C\EsameLab9\contaOccorenze\Debug\contaOccorenze.exe
+D:\C\EsameLab9\contaOccorenze\Debug\contaOccorenze.pdb

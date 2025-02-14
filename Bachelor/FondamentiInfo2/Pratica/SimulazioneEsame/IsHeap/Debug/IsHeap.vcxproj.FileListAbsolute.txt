@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\SimulazioneEsame\IsHeap\Debug\IsHeap.exe
+E:\Unimore\Fdi2\Pratica\SimulazioneEsame\IsHeap\Debug\IsHeap.pdb

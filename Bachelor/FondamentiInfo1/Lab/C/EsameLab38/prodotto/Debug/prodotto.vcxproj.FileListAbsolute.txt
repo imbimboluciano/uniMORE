@@ -1,0 +1,2 @@
+E:\C\EsameLab38\prodotto\Debug\prodotto.exe
+E:\C\EsameLab38\prodotto\Debug\prodotto.pdb

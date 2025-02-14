@@ -1,0 +1,2 @@
+D:\C\EsameLab1\inverti\Debug\inverti.exe
+D:\C\EsameLab1\inverti\Debug\inverti.pdb

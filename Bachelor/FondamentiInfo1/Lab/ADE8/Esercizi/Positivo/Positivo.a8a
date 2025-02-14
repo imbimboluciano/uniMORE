@@ -1,0 +1,11 @@
+	LD	A
+	CMPv	00h
+	JZ	Fine
+	JN	Fine
+	JMP	Pos
+Fine:	JMP	Fine
+Pos:	LD	B
+	ADDv	01h
+	ST	B
+A:	05h
+B:	00h

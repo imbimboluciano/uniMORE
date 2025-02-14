@@ -1,0 +1,2 @@
+C:\Users\lucia\Desktop\EsameLabII\printbin\Debug\printbin.exe
+C:\Users\lucia\Desktop\EsameLabII\printbin\Debug\printbin.pdb

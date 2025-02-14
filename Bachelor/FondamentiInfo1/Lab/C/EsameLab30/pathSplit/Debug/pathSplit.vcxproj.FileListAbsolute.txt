@@ -1,0 +1,2 @@
+E:\C\EsameLab30\pathSplit\Debug\pathSplit.exe
+E:\C\EsameLab30\pathSplit\Debug\pathSplit.pdb

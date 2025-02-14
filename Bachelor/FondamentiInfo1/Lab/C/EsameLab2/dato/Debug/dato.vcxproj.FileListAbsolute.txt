@@ -1,0 +1,2 @@
+D:\C\EsameLab2\dato\Debug\dato.exe
+D:\C\EsameLab2\dato\Debug\dato.pdb

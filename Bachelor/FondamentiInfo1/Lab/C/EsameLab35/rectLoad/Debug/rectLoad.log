@@ -1,0 +1,5 @@
+﻿  main.c
+E:\C\EsameLab35\rectLoad\main.c(5,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+  shapes.c
+  Generating Code...
+  rectLoad.vcxproj -> E:\C\EsameLab35\rectLoad\Debug\rectLoad.exe

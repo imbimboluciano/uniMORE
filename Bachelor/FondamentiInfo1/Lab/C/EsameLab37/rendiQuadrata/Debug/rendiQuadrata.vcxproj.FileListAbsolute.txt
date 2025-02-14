@@ -1,0 +1,2 @@
+E:\C\EsameLab37\rendiQuadrata\Debug\rendiQuadrata.exe
+E:\C\EsameLab37\rendiQuadrata\Debug\rendiQuadrata.pdb

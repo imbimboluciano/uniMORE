@@ -1,0 +1,2 @@
+E:\C\EsameLab45\nonogramLoad\Debug\nonogramLoad.exe
+E:\C\EsameLab45\nonogramLoad\Debug\nonogramLoad.pdb

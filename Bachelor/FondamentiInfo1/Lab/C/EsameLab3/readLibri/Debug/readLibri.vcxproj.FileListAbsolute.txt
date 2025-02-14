@@ -1,0 +1,2 @@
+D:\C\EsameLab3\readLibri\Debug\readLibri.exe
+D:\C\EsameLab3\readLibri\Debug\readLibri.pdb

@@ -1,0 +1,6 @@
+﻿  main.c
+  stat.c
+C:\Users\lucia\Desktop\C\Esercitazione05112020\MediaVarianzaStat\stat.c(8,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lucia\Desktop\C\Esercitazione05112020\MediaVarianzaStat\stat.c(16,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  MediaVarianzaStat.vcxproj -> C:\Users\lucia\Desktop\C\Esercitazione05112020\MediaVarianzaStat\Debug\MediaVarianzaStat.exe

@@ -1,0 +1,2 @@
+E:\C\EsameLab47\readCoded\Debug\readCoded.exe
+E:\C\EsameLab47\readCoded\Debug\readCoded.pdb

@@ -1,0 +1,21 @@
+Inizio:	LD	A
+	CMPv	0
+	JZ	Salva
+	JN	Salva
+	CMP	B
+	JE	Fine
+	JLs	Cambio
+	LD	A
+	SUB	B
+	JMP	Inizio
+Salva:	ST	B
+Fine:	JMP	Fine
+Cambio:	LD	A
+	ST	C
+	LD	B
+	ST	A
+	LD	C
+	ST	B
+A:	6
+B:	15
+C:	0

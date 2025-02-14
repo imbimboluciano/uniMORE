@@ -1,0 +1,2 @@
+E:\C\EsameLab37\serpentiEncode\Debug\serpentiEncode.exe
+E:\C\EsameLab37\serpentiEncode\Debug\serpentiEncode.pdb

@@ -1,0 +1,2 @@
+E:\C\EsameLab46\rimuoviSingoliSpazi\Debug\rimuoviSingoliSpazi.exe
+E:\C\EsameLab46\rimuoviSingoliSpazi\Debug\rimuoviSingoliSpazi.pdb

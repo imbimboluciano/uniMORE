@@ -1,0 +1,2 @@
+E:\C\EsameLab39\matDeleteCol\Debug\matDeleteCol.exe
+E:\C\EsameLab39\matDeleteCol\Debug\matDeleteCol.pdb

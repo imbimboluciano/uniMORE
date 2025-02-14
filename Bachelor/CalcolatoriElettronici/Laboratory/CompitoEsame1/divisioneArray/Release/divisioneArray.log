@@ -1,0 +1,8 @@
+﻿  Assembling imbimbo_282221.asm...
+  main.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+imbimbo_282221.obj : error LNK2026: module unsafe for SAFESEH image.
+C:\Users\lucia\OneDrive\Assembly\CompitoEsame1\divisioneArray\Release\divisioneArray.exe : fatal error LNK1281: Unable to generate SAFESEH image.

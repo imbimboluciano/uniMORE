@@ -1,0 +1,6 @@
+Si intende implementare un simulatore di campane in vista delle prossime feste. Il simulatore implementa delle campane semplici
+dal suono in <<i>> (<<din>>) dal suono in <<o>> (<<don>>) e <<a>> (<<dan>>). Le campane possono avere un effetto eco riproducendo
+il suono due volte ( <<din din>>), un effetto vento (viene emesso il suono <<ffff>> dopo il suono della campana), un effetto battito
+(viene emesso <<tic>> dopo ogni suono).
+La melodia viene emessa attraverso uno scheduler che riproduce in maniera casuale una successione di X (impostato nel main) suoni di
+campane (non tutte le combinazioni di campane possono essere acquistate dal cliente.

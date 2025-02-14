@@ -1,0 +1,8 @@
+﻿  Assembling potenza.asm...
+  main.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+potenza.obj : error LNK2026: module unsafe for SAFESEH image.
+C:\Users\lucia\OneDrive\Assembly\Esercitazione15112021\potenza\Release\potenza.exe : fatal error LNK1281: Unable to generate SAFESEH image.

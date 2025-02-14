@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookFiltra\Debug\AddressBookFiltra.exe
+E:\Unimore\Fdi2\Pratica\EsercitazioneListe2\AddressBookFiltra\Debug\AddressBookFiltra.pdb

@@ -1,0 +1,2 @@
+E:\C\EsameLab37\leggiRapporti\Debug\leggiRapporti.exe
+E:\C\EsameLab37\leggiRapporti\Debug\leggiRapporti.pdb

@@ -1,0 +1,2 @@
+E:\C\EsameLab4\cono\Debug\cono.exe
+E:\C\EsameLab4\cono\Debug\cono.pdb

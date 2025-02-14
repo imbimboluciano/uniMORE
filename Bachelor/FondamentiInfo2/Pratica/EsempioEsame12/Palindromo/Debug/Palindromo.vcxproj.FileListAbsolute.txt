@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\EsempioEsame12\Palindromo\Debug\Palindromo.exe
+E:\Unimore\Fdi2\Pratica\EsempioEsame12\Palindromo\Debug\Palindromo.pdb

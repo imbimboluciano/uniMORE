@@ -1,0 +1,2 @@
+E:\C\EsameLab32\matPermute\Debug\matPermute.exe
+E:\C\EsameLab32\matPermute\Debug\matPermute.pdb

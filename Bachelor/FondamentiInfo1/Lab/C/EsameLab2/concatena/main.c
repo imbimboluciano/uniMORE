@@ -1,0 +1,1 @@
+extern char* concatena(const char* s1, const char* s2);int main(void) {	char* s = concatena("prima stringa", "seconda stringa");	free(s);	return 0;}

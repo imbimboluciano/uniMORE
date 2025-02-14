@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heapify", "Heapify.vcxproj", "{F0EB7703-807B-4C67-992D-D5B70E387204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0EB7703-807B-4C67-992D-D5B70E387204}.Debug|x64.ActiveCfg = Debug|x64
+		{F0EB7703-807B-4C67-992D-D5B70E387204}.Debug|x64.Build.0 = Debug|x64
+		{F0EB7703-807B-4C67-992D-D5B70E387204}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0EB7703-807B-4C67-992D-D5B70E387204}.Debug|x86.Build.0 = Debug|Win32
+		{F0EB7703-807B-4C67-992D-D5B70E387204}.Release|x64.ActiveCfg = Release|x64
+		{F0EB7703-807B-4C67-992D-D5B70E387204}.Release|x64.Build.0 = Release|x64
+		{F0EB7703-807B-4C67-992D-D5B70E387204}.Release|x86.ActiveCfg = Release|Win32
+		{F0EB7703-807B-4C67-992D-D5B70E387204}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96B71C83-2C0A-4FD8-8AA3-F8656AAE056F}
+	EndGlobalSection
+EndGlobal

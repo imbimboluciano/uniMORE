@@ -1,0 +1,2 @@
+C:\Users\lucia\Desktop\EsameLabII\PlacingDominio\Debug\PlacingDominio.exe
+C:\Users\lucia\Desktop\EsameLabII\PlacingDominio\Debug\PlacingDominio.pdb

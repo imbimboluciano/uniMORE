@@ -1,0 +1,2 @@
+E:\C\EsameLab34\isDate\Debug\isDate.exe
+E:\C\EsameLab34\isDate\Debug\isDate.pdb

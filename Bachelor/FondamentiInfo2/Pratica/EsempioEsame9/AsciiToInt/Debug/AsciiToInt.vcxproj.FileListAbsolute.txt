@@ -1,0 +1,2 @@
+E:\Unimore\Fdi2\Pratica\EsempioEsame9\AsciiToInt\Debug\AsciiToInt.exe
+E:\Unimore\Fdi2\Pratica\EsempioEsame9\AsciiToInt\Debug\AsciiToInt.pdb

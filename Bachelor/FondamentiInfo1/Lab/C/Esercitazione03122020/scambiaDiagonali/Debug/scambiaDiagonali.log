@@ -1,0 +1,6 @@
+﻿  main.c
+  matrice.c
+D:\C\Esame031220\scambiaDiagonali\matrice.c(10,21): warning C4018: '<': signed/unsigned mismatch
+D:\C\Esame031220\scambiaDiagonali\matrice.c(11,22): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  scambiaDiagonali.vcxproj -> D:\C\Esame031220\scambiaDiagonali\Debug\scambiaDiagonali.exe

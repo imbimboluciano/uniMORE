@@ -1,0 +1,2 @@
+D:\C\Esame031220\matrix\Debug\matrix.exe
+D:\C\Esame031220\matrix\Debug\matrix.pdb
