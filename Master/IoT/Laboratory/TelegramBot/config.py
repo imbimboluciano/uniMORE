@@ -1,3 +1,3 @@
-BOTKEY = "6743652505:AAGBqYV8Bc_JW6WbsQjAzHijGf96NjFhXMg"
+BOTKEY = ""
 
 interval = 5 #seconds
