@@ -14,43 +14,42 @@ turtles-own[
   salary
   taxes-paid
   pension
+  richness
 ]
 
 to setup
   clear-all
   no-display
   set-default-shape turtles "person"
-  set retirement-age 55  ; Initial retirement age (adjustable by slider)
-  set death-age 65 ; Initial death age
-  set birth-rate 0.03 ; Initial birth rate, higher than we will get to, but good for setup.
+  set death-age retirement-age + 10
+  set birth-rate 0.04
 
-  ; Create initial population (few retired, few young, more workers)
   create-youngers 50 [
     set color blue
-    set age random 18  ; Young people are between 0 and 17 years old
+    set age random 18
+    set richness 0
     setxy random-xcor random-ycor
   ]
   create-workers 150 [
     set color green
-    set age 18 + random 47  ; Workers are between 18 and retirement age (initially 64)
-    set salary (random-normal 50000 10000) ; Workers earn a salary (mean 50k, std dev 10k)
-    set taxes-paid 0 ; Initialize taxes paid
+    set age 18 + random 47
+    set salary (random-normal 50000 10000) ; normal distribution
+    set taxes-paid 0
+    set richness (random-normal 10000 100000)
     setxy random-xcor random-ycor
   ]
   create-retireds 20 [
     set color red
-    set age retirement-age + random 20 ; Retireds are at least the retirement-age.
+    set age retirement-age + random 20
     set pension (random-normal 30000 6000) ;average pension.
+    set richness (random-normal 100000 200000)
     setxy random-xcor random-ycor
   ]
-
   reset-ticks
-  calculate-gdp  ; Calculate initial GDP
-  update-demographics
 end
 
 to go
-  if ticks mod 10 = 0 [  ; Update the display every 10 ticks
+  if ticks mod 10 = 0 [
     display
   ]
   age-population
@@ -62,7 +61,7 @@ to go
 end
 
 to age-population
-  ; Aging for youngers
+
   ask youngers [
     set age age + 1
     if age >= 18 [
@@ -75,19 +74,17 @@ to age-population
     ]
   ]
 
-  ; Aging for workers
   ask workers [
     set age age + 1
     if age >= retirement-age [
       hatch-retireds 1 [
         set color red
-        set pension (salary * 0.6) ; initial pension 40% less (can be more refined)
+        set pension (salary * pension-percentage)
       ]
       die
     ]
   ]
 
-    ; Aging and death for retireds
   ask retireds [
     set age age + 1
         if age >= death-age + random-float 10 - 5 [ ;add some randomness.
@@ -99,31 +96,20 @@ end
 
 to worker-activities
   ask workers [
-    ; Workers earn salary (for simplicity, we assume it stays constant, but you could add raises)
-    ;set salary (salary + random-normal 0 500)  ; Small salary increases (optional)
-
-    ; Workers pay taxes
-    let tax-amount salary * 0.30
+    let tax-amount salary * taxes-percentage
     set taxes-paid taxes-paid + tax-amount
-    set total-taxes total-taxes + tax-amount  ; Accumulate total taxes in a global variable
-
+    set total-taxes total-taxes + tax-amount
+    set richness salary - tax-amount
   ]
 end
 
 to state-activities
-  ; State pays for education (simplified: fixed cost per younger)
-  let education-cost count youngers * 1000  ; $1000 per younger for education
+  let education-cost count youngers * education-cost-younger
   set total-taxes total-taxes - education-cost
 
-  ; State pays pensions
   ask retireds [
-    ;check if state can afford to pay.
-     ifelse total-taxes >= pension [
+     if total-taxes >= pension [
         set total-taxes total-taxes - pension
-     ] [
-        ;reduce the pension if state can't afford.
-        set pension min (list pension total-taxes)
-        set total-taxes 0
      ]
 
   ]
@@ -135,21 +121,31 @@ end
 
 
 to calculate-gdp
-  set gdp sum [salary] of workers  ; GDP is the sum of all worker salaries
+  set gdp sum [richness] of turtles / (count(workers) + count(retireds)) ; GDP is the sum of all worker salaries
 end
 
 to update-demographics
 
-  set birth-rate birth-rate - 0.00005
-  ; Births
+  ifelse immigration [
+    if ticks mod 20 = 0 [
+      set birth-rate (0.02 + random-float 0.01)
+    ]
+  ] [
+    ifelse birth-rate > 0.02 [
+      set birth-rate (birth-rate - 0.005 * ln (1 + gdp / 1000000))
+    ] [
+      set birth-rate 0.02
+    ]
+  ]
+
     let num-births floor (birth-rate * count workers)
     create-youngers num-births [
         set color blue
         set age 0
+    set richness 0
         setxy random-xcor random-ycor
     ]
-  ; Update death age based on GDP (positive relationship)
-  set death-age min (list (65 + 1 * ln (1 + gdp / 1000000)) 100)
+  set death-age min (list (death-age + 1 * ln (1 + gdp / 1000000)) 100)
 
 end
 @#$#@#$#@
@@ -223,17 +219,17 @@ retirement-age
 retirement-age
 0
 100
-55.0
+76.0
 1
 1
 NIL
 HORIZONTAL
 
 MONITOR
-59
-170
-134
-215
+67
+346
+142
+391
 NIL
 death-age
 0
@@ -241,28 +237,10 @@ death-age
 11
 
 PLOT
-60
-225
-478
-463
-BirthRate
-ticks
-birth-rate
-0.0
-10.0
-0.0
-0.05
-false
-false
-"" ""
-PENS
-"default" 1.0 0 -16777216 true "" "plot birth-rate"
-
-PLOT
-60
-479
-492
-766
+65
+417
+497
+704
 Population
 ticks
 population
@@ -295,6 +273,91 @@ false
 "" ""
 PENS
 "default" 1.0 0 -16777216 true "" "plot gdp"
+
+MONITOR
+166
+346
+238
+391
+NIL
+birth-rate
+4
+1
+11
+
+SLIDER
+60
+177
+268
+210
+pension-percentage
+pension-percentage
+0
+1
+0.8
+0.01
+1
+NIL
+HORIZONTAL
+
+SLIDER
+63
+234
+269
+267
+taxes-percentage
+taxes-percentage
+0
+1
+0.45
+0.05
+1
+NIL
+HORIZONTAL
+
+SLIDER
+64
+289
+269
+322
+education-cost-younger
+education-cost-younger
+0
+10000
+10000.0
+100
+1
+NIL
+HORIZONTAL
+
+SWITCH
+265
+358
+400
+391
+immigration
+immigration
+1
+1
+-1000
+
+PLOT
+1336
+452
+1826
+751
+State
+ticks
+total_taxes
+0.0
+10.0
+0.0
+10.0
+true
+false
+"" ""
+PENS
+"default" 1.0 0 -16777216 true "" "plot total-taxes"
 
 @#$#@#$#@
 ## WHAT IS IT?
